@@ -209,6 +209,6 @@ public class TabRegistry
     {
         boolean widthTooNarrow = gui.width < 379;
         gui.func_194310_f().func_194303_a(gui.width, gui.height, mc, widthTooNarrow, ((ContainerPlayer)gui.inventorySlots).craftMatrix);
-        return gui.func_194310_f().updateScreenPosition(widthTooNarrow, gui.width, gui.xSize) - (gui.width - 176) / 2;
+        return gui.func_194310_f().updateScreenPosition(widthTooNarrow, gui.width, gui.getXSize()) - (gui.width - 176) / 2;
     }
 }
